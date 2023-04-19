@@ -254,3 +254,30 @@
 }
 /* END SECTION-6 */
 /* END MAIN */
+/* FOOTER */
+.section-footer{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+
+.row-section-footer{
+    width: 100%;
+    display: flex;
+}
+
+.col-11-footer{
+    width: calc(80% / 5);
+    height: 400px;
+    background-color: red;
+    margin: 50px 5px;
+}
+
+.margin-6{
+    margin: 50px 5px 50px auto;
+}
+
+.margin-7{
+    margin: 50px auto 50px 5px;
+}
+/* END FOOTER */
