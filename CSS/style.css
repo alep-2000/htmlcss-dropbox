@@ -208,4 +208,30 @@
     background-color: aqua;
 }
 /* END SECTION-4 */
+/* SECTION-5 */
+.section-5{
+    width: 100%;
+    height: 300px;
+    background-color: green;
+}
+
+.row-section-5{
+    width: 100%;
+    display: flex;
+}
+
+.col-50-s5{
+    width: 35%;
+    height: 150px;
+    margin: 70px 5px 70px auto;
+    background-color: cornflowerblue;
+}
+
+.col-50-s5-2{
+    width: 35%;
+    height: 150px;
+    margin: 70px auto 70px 5px;
+    background-color: cornflowerblue;
+}
+/* END SECTION-5 */
 /* END MAIN */
