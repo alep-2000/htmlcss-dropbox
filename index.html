@@ -19,16 +19,16 @@
                 <div class="col-50">
                     <div class="menu">
                         <img id="logo" src="./img/logo-small.png" alt="logo">
-                        <a href="#">Perchè Dropbox</a>
-                        <a href="#">Funzioni</a>
-                        <a href="#">Piani e Prezzi</a>
+                        <a class="link" href="#">Perchè Dropbox</a>
+                        <a class="link" href="#">Funzioni</a>
+                        <a class="link" href="#">Piani e Prezzi</a>
                     </div>
                 </div>
                 <div class="col-50">
                     <div class="menu">
-                        <a class="margin" href="#">Supporto</a>
-                        <a href="#">Contatta l'ufficio vendite</a>
-                        <a href="#">Accedi</a>
+                        <a class="link" id="margin" href="#">Supporto</a>
+                        <a class="link" href="#">Contatta l'ufficio vendite</a>
+                        <a class="link" href="#">Accedi</a>
                         <button>Inizia</button>
                     </div>
                 </div>
@@ -65,23 +65,160 @@
             <div class="container">
                 <div class="row-section-1">
                     <div class="col-100-s1">
-
+                        <h2>Trova il piano business che fa per te</h2>
+                        <form class="button-radio">
+                            <input type="radio"> 
+                            <label>Fatturazione mensile</label>
+                        </form>
+                        <form class="button-radio-2">
+                            <input type="radio"> 
+                            <label>Fatturazione annuale</label>
+                        </form>
                     </div>
                 </div> 
                 <div class="row-section-1">
                     <div class="col-23 margin-1">
-
+                        <i id="user" class="fa-solid fa-user" style="color: #000000;"></i> 
+                        <span class="title-list">Singolo</span>
+                        <hr class="line">
+                        <ul>
+                            <li class="li"><strong>Professional</strong></li>
+                            <li class="li text-professional"><strong>&euro;12.00</strong></li>
+                            <li class="li text-professional">/mese</li>
+                            <li class="li">
+                                <i class="fa-solid fa-user" style="color: #000000;"></i>
+                                <span class="text-professional">1 utente</span> 
+                            </li>
+                            <li class="li">
+                                <i class="fa-solid fa-folder" style="color: #000000;"></i>
+                                <span class="text-professional">5 TB di spazio di archiviazione <br> sicuro</span>
+                            </li>
+                            <li class="li">
+                                <i class="fa-solid fa-share-nodes" style="color: #000000;"></i>
+                                <span class="text-professional">Funzioni di produttività premium <br> e condivisone file semplice e <br> sicura</span>
+                            </li>
+                        </ul>
+                        <button class="button-section-1">Prova gratis per 30 giorni</button>
+                        <div class="size">oppure
+                        <span><a href="#">acquista ora</a></span>
+                        <hr class="line-2">
+                        </div> 
+                        <ul>
+                            <li class="li-1"><strong class="subtitle">Punti Salienti del piano</strong></li>
+                            <li class="li-1">
+                                <i class="fa-solid fa-check" style="color: #0080ff;"></i>
+                                <span class="text-professional">Invia file fino a 100 GB con <br> Dropbox Trasfert</span>
+                            </li>
+                            <li class="li-1">
+                                <i class="fa-solid fa-check" style="color: #0080ff;"></i>
+                                <span class="text-professional">Cartelle offline su dispositivi <br> mobili</span>
+                            </li>
+                        </ul>
                     </div>
                     <div class="col-23 margin-2">
-
+                        <i id="users" class="fa-solid fa-users" style="color: #000000;"></i> 
+                        <span class="title-list">Team</span>
+                        <hr class="line">
+                        <ul>
+                            <li class="li"><strong>Advanced</strong></li>
+                            <li class="li text-professional"><strong>&euro;18.00</strong></li>
+                            <li class="li text-professional">/utente/mese</li>
+                            <li class="li">
+                                <i class="fa-solid fa-users" style="color: #000000;"></i> 
+                                <span class="text-professional">3 o più utenti</span> 
+                            </li>
+                            <li class="li">
+                                <i class="fa-solid fa-folder" style="color: #000000;"></i>
+                                <span class="text-professional">Tutto lo spazio di cui ha bisogno il <br> tuo team</span>
+                            </li>
+                            <li class="li">
+                                <i class="fa-solid fa-share-nodes" style="color: #000000;"></i>
+                                <span class="text-professional">Sofisticate funzioni di controllo e <br> per tenere al sicuro i tuoi file del <br> tuo team</span>
+                            </li>
+                        </ul>
+                        <button class="button-section-1">Prova gratis per 30 giorni</button>
+                        <div class="size">oppure
+                        <span><a href="#">acquista ora</a></span>
+                        <hr class="line-2">
+                        </div> 
+                        <ul>
+                            <li class="li-1"><strong class="subtitle">Punti Salienti del piano</strong></li>
+                            <li class="li-1">
+                                <i class="fa-solid fa-check" style="color: #0080ff;"></i>
+                                <span class="text-professional">Nessun limite di spazio per i file</span>
+                            </li>
+                            <li class="li-1">
+                                <i class="fa-solid fa-check" style="color: #0080ff;"></i>
+                                <span class="text-professional">Cartelle offline su dispositivi <br> mobili</span>
+                            </li>
+                            <li class="li-1">
+                                <i class="fa-solid fa-check" style="color: #0080ff;"></i>
+                                <span class="text-professional">Risparmio del 50% rispetto alle <br> iscrizioni singole</span>
+                            </li>
+                            <li class="li-1">
+                                <i class="fa-solid fa-check" style="color: #0080ff;"></i>
+                                <span class="text-professional">Possibilità di inserire nuovi <br> membri del team</span>
+                            </li>
+                            <li class="li-1">
+                                <i class="fa-solid fa-check" style="color: #0080ff;"></i>
+                                <span class="text-professional">Gestione dei permessi in base ai <br> ruoli</span>
+                            </li>
+                        </ul>
                     </div>
                     <div class="col-23 margin-3">
-
+                        <i id="agency" class="fa-solid fa-building" style="color: #000000;"></i> 
+                        <span class="title-list">Azienda</span>
+                        <hr class="line">
+                        <ul>
+                            <li class="li"><strong>Enterprise</strong></li>
+                            <li class="li text-professional"><strong>Contattaci</strong></li>
+                            <li class="li text-professional">-</li>
+                            <li class="li">
+                                <i class="fa-solid fa-user" style="color: #000000;"></i>
+                                <span class="text-professional">10 o più utenti</span> 
+                            </li>
+                            <li class="li">
+                                <i class="fa-solid fa-folder" style="color: #000000;"></i>
+                                <span class="text-professional">Soluzioni personalizzabili per la <br> tua azienda</span>
+                            </li>
+                            <li class="li">
+                                <i class="fa-solid fa-share-nodes" style="color: #000000;"></i>
+                                <span class="text-professional">Assistenza personalizzata per <br> aiutare gli amministratori in un <br> gestione su larga scala</span>
+                            </li>
+                        </ul>
+                        <button class="button-section-1">Contattaci</button>
+                        <div class="size">oppure
+                        <span><a href="#">acquista ora</a></span>
+                        <hr class="line-2">
+                        </div> 
+                        <ul>
+                            <li class="li-1"><strong class="subtitle">Punti Salienti del piano</strong></li>
+                            <li class="li-1">
+                                <i class="fa-solid fa-check" style="color: #0080ff;"></i>
+                                <span class="text-professional">Cartelle offline su dispositivi <br> mobili</span>
+                            </li>
+                            <li class="li-1">
+                                <i class="fa-solid fa-check" style="color: #0080ff;"></i>
+                                <span class="text-professional">Servizio assistenza 24/h</span>
+                            </li>
+                            <li class="li-1">
+                                <i class="fa-solid fa-check" style="color: #0080ff;"></i>
+                                <span class="text-professional">Possibilità di personalizzazione <br> totale</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="row-section-1">
                     <div class="col-100-s1-2">
-
+                        <i id="agency-1" class="fa-solid fa-building" style="color: #000000;"></i>
+                        <span class="title-list">Team</span> 
+                        <hr class="line">
+                        <ul>
+                            <li class="li-1"><strong>Enterprise</strong></li>
+                            <li><button class="button-col-100-s1-2"> Contatta l'ufficio vendite</button></li>
+                            <li class="li-2"><strong>Contatta l'ufficio vendite per i prezzi</strong></li>
+                            <li class="li-3">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su <br> qualsiasi scala</li>
+                        </ul>
                     </div>
                 </div>
             </div>
