@@ -425,6 +425,7 @@ h3{
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
+    filter: invert(1);
 }
 
 .university-img{
@@ -433,6 +434,7 @@ h3{
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
+    filter: invert(1);
 }
 
 .arizona-university-img{
@@ -441,6 +443,7 @@ h3{
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
+    filter: invert(1);
 }
 
 .toops-img{
@@ -449,6 +452,7 @@ h3{
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
+    filter: invert(1);
 }
 
 .world-bicycle-img{
@@ -457,6 +461,7 @@ h3{
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
+    filter: invert(1);
 }
 
 .lonely-img{
@@ -465,6 +470,7 @@ h3{
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
+    filter: invert(1);
 }
 
 .hearst-img{
@@ -473,6 +479,7 @@ h3{
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
+    filter: invert(1);
 }
 
 .clear-channel-img{
@@ -481,6 +488,7 @@ h3{
     left: 50%;
     transform: translate(-50%,-50%);
     position: absolute;
+    filter: invert(1);
 }
 
 .col-40-s4{
@@ -500,7 +508,6 @@ h3{
 .img-col1{
     width: 100%;
     height: 250px;
-    border: 1px dashed black;
     background-color: rgb(13, 154, 248);
     position: relative;
 }
@@ -508,7 +515,6 @@ h3{
 .img-col2{
    width: 100%;
     height: 250px;
-    border: 1px dashed black;
     background-color: rgb(102, 33, 33);
     position: relative;
 }
@@ -516,7 +522,6 @@ h3{
 .img-col3{
     width: 100%;
     height: 250px;
-    border: 1px dashed black;
     background-color: red;
     position: relative;
 }
@@ -524,7 +529,6 @@ h3{
 .img-col4{
     width: 100%;
     height: 250px;
-    border: 1px dashed black;
     background-color: red;
     position: relative;
 }
@@ -532,7 +536,6 @@ h3{
 .img-col5{
     width: 100%;
     height: 250px;
-    border: 1px dashed black;
     background-color: rgb(2, 32, 129);
     position: relative;
 }
@@ -540,7 +543,6 @@ h3{
 .img-col6{
     width: 100%;
     height: 250px;
-    border: 1px dashed black;
     background-color: rgb(86, 192, 241);
     position: relative;
 }
@@ -548,7 +550,6 @@ h3{
 .img-col7{
     width: 100%;
     height: 250px;
-    border: 1px dashed black;
     background-color: rgb(255, 196, 0);
     position: relative;
 }
